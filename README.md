@@ -6,17 +6,28 @@ Iris dataset.
 About the dataset:
 
 Each training example contains 4 features(SepalLength,SepalWidth,PetaLength,PetalWidth) all in cm.
+
 Three Classes-Iris-setosa(Label-0),Iris-versicolor(Label-1),Iris-virginica(Label-2)
 
 About the Files in Source_dir:
+
 Main.m-This is the main file which loads the data and calls the function.
+
 train.txt-The training set
+
 test.txt-The testing set
+
 cv.txt-The cross validation set
+
 trainLogReg-Trains the three classifiers
+
 learningCurve.m- Used to plot learning curves. For info about learningCurves refer [Video](https://www.coursera.org/learn/machine-learning/lecture/Kont7/learning-curves)
+
 sigmoid.m-Caluculates the sigmoid function.
-learningCurves.m:This is also used to plot learning curves by a different method and its sort of buggy so take that with a grain of salt.
+
+learningCurves.m:This is also used to plot learning curves by a different method and its sort of buggy so take that with a 
+grain of salt.
+
 costFunctionReg.m: This caluculates the gradients and the value of a cost at a particular theta and its used by fminunc().
 
 helper_programs:

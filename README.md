@@ -19,4 +19,4 @@ Hypothesis:Thet0+Theta1*X1+Theta2*X2+Theta*X3+Theta*X3
 After using fminunc(Function minimisation) to minimise the cost function, I applied the Theta values to test the hypotheis, two examples were
 incorrectly classified, Then I went on to plot the learning curves which looked like the figure below:
 
-![Alt text](/https://github.com/vsag/ML-with-Iris-dataset.git/master/ML-with-Iris-dataset/LearningCurves/Learning_Curve_LogReg.png?raw=true "Optional Title")
+![Alt text](https://github.com/vsag/ML-with-Iris-dataset/tree/master/LearningCurves/Learning_Curve_LogReg.png?raw=true "Optional Title")

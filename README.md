@@ -49,3 +49,6 @@ After using fminunc(Function minimisation) to minimise the cost function, I appl
 As you can see the CV error remains costant after a certain-number of training examples and this suggests theres a bit of a bias and no matter how many more examples you get this might remain constant? So what can you do?  One promising avenue would be to fit a more complex hypothesis, this can be done by using neural networks or by increasing the number of features. This is the best logistic regression can do without using polynomial feature.
 
 So on the data it has never seen before i.e cv,testset. It misclassifies 2 samples.So on a whole for an accuracy metric=(52/54)*100 which is around 96.4%
+
+PCA:
+It's really hard to visualise the 4D data so done I've done pca and initialy chose one pca and then chose two pc's. They can be found in the data visualisation folder.
